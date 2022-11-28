@@ -1,5 +1,5 @@
-//go:build !baremetal && !js
-// +build !baremetal,!js
+//go:build !baremetal && !js && !nintendoswitch
+// +build !baremetal,!js,!nintendoswitch
 
 // Portions copyright 2009 The Go Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style

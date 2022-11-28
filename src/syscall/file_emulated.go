@@ -1,5 +1,5 @@
-//go:build baremetal || wasm
-// +build baremetal wasm
+//go:build baremetal || wasm || nintendoswitch
+// +build baremetal wasm nintendoswitch
 
 // This file emulates some file-related functions that are only available
 // under a real operating system.

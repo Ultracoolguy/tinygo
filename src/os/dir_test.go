@@ -1,5 +1,5 @@
-//go:build darwin || (linux && !baremetal && !js && !wasi && !386 && !arm)
-// +build darwin linux,!baremetal,!js,!wasi,!386,!arm
+//go:build darwin || (linux && !baremetal && !js && !wasi && !386 && !arm && !nintendoswitch)
+// +build darwin linux,!baremetal,!js,!wasi,!386,!arm,!nintendoswitch
 
 package os_test
 

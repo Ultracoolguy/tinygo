@@ -1,5 +1,5 @@
-//go:build baremetal || (wasm && !wasi)
-// +build baremetal wasm,!wasi
+//go:build baremetal || (wasm && !wasi) || nintendoswitch
+// +build baremetal wasm,!wasi nintendoswitch
 
 package os
 

@@ -1,5 +1,5 @@
-//go:build baremetal || js
-// +build baremetal js
+//go:build baremetal || js || nintendoswitch
+// +build baremetal js nintendoswitch
 
 package runtime
 
